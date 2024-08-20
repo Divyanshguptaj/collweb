@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { TiArrowRightThick } from "react-icons/ti";
 // import { MdOutlineArrowRight } from "react-icons/md";
@@ -7,11 +7,11 @@ import './all.css';
 // import Menu from './Menubar.js';
 
 function LandingPage() {
-    const [right, setRight] = useState(-400);
-    const toggleMenu = () => {
-        if(right === -400) setRight(0);
-        else setRight(-400);
-    };
+    // const [right, setRight] = useState(-400);
+    // const toggleMenu = () => {
+    //     if(right === -400) setRight(0);
+    //     else setRight(-400);
+    // };
     return (
         // HEADER
         <header className="flex">

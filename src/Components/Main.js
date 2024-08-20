@@ -14,7 +14,7 @@ function main(){
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                         <span className="bar_blue"></span>
                     </div>
-                    <marquee direction="up" id="notification" onmouseover="this.stop();" onmouseleave="this.start();">
+                    <div id="notification">
 
                         {/* <!--notification begining--> */}
                         <a href="/" className="flex fixed_flex">
@@ -104,7 +104,7 @@ function main(){
                             </article>
                         </a>
                         {/* <!--notification ends--> */}
-                    </marquee>
+                    </div>
                 </section>
 
                 <section className="flex_content padding_2x" id="event">
@@ -148,7 +148,7 @@ function main(){
                     <aside className="fixed_flex">
                         <a href="/" className="btn btn_1">Explore more</a>
                         <MdKeyboardArrowRight className="fa fa-angle-right"/>
-                        <a href="javascript:void(0)">Gallery Portfolio</a>
+                        <a href="/">Gallery Portfolio</a>
                     </aside>
                 </div>
                 <div className="cards">

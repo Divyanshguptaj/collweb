@@ -7,7 +7,7 @@ function Navbar() {
     // const [menuOpen, setMenuOpen] = useState(true);
     const [right, setRight] = useState(-400);
     const toggleMenu = () => {
-        if(right==-400) setRight(0);
+        if(right===-400) setRight(0);
         else setRight(-400);
         // setMenuOpen(!menuOpen);
     };

@@ -3,7 +3,6 @@ import './all.css';
 import { IoMdClose } from "react-icons/io";
 
 function Menu(props) {
-
     return (
         <div className="side_menu" style={{right: props.right}}>
             <button className="close" onClick={props.closeMenu}>
@@ -19,13 +18,7 @@ function Menu(props) {
                 <li><a href="/">Notifications</a></li>
                 <li><a href="/">Events</a></li>
                 <li><a href="/">Features</a></li>
-                <li className="dropdown">
-                    <a href="/">Mandatory Disclosure</a>
-                    <aside>
-                        <a href="/">Society registration</a>
-                        <a href="/">NOC</a>
-                    </aside>
-                </li>
+                <li><a href="/">Mandatory Disclosure</a></li>
                 <li><a href="/">About us</a></li>
                 <li className="fixed_flex">
                     <a href="/" className="btn btn_1 chat_popup">SignUp/LogIn</a>

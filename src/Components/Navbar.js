@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './all.css';
 import { GiHamburgerMenu } from "react-icons/gi";
-import Menu from './Menubar'; // Import the Menu component
+import Menu from './Menubar';
 
 function Navbar() {
     // const [menuOpen, setMenuOpen] = useState(true);
@@ -15,14 +15,6 @@ function Navbar() {
     return (
         <>
             <nav>
-                <section className="flex_content">
-                    <figure className="logo fixed_flex">
-                        <img src="https://i.postimg.cc/02NrFwT5/canva.png" alt="Logo" />
-                        <figcaption>
-                            <strong className="title">Lilliovi</strong> Public School
-                        </figcaption>
-                    </figure>
-                </section>
                 <section className="flex_content nav_content" id="nav_content">
                     <a href="/" className="active">Home</a>
                     <a href="/">Gallery</a>
@@ -37,8 +29,6 @@ function Navbar() {
                 </section>
             </nav>
             <Menu closeMenu={toggleMenu} right={right}/>
-
-            {/* Render the Menu component based on menuOpen state */}
         </>
     );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './all.css';
 import { FaEnvelope } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md'; 
+import { IoCall } from "react-icons/io5";
 import { CiFacebook } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
@@ -11,12 +11,12 @@ import { AiOutlineYoutube } from "react-icons/ai";
 function topMenu(){
     return(
     // TOP MENU
-    <menu className="top_menu flex">
-        <section className="flex_content">
-            <a href="/"> <FaEnvelope /> info@lilliovi.com</a>
-            <a href="/"> <MdEmail /> 1234567890</a>
+    <menu className="top_menu flex row_dir">
+        <section className="flex_content row_dir top_sec1">
+            <a className='flex' href="/"> <FaEnvelope className='mr-1 mt-1' size={13}/> info@lilliovi.com</a>
+            <a className='flex' href="/"> <IoCall className='mr-1 mt-1' size={13}/> 1234567890</a>
         </section>
-        <section className="flex_content">
+        <section className="flex_content row_dir">
             <a href="/" title="Facebook"><CiFacebook/></a>
             <a href="/" title="Instagram"><FaInstagram/></a>
             <a href="/" title="Twitter"><FaXTwitter/></a>

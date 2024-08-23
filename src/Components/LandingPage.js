@@ -1,6 +1,7 @@
 // import React, { useState } from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { TiArrowRightThick } from "react-icons/ti";
+import { IoCall } from "react-icons/io5";
 // import { MdOutlineArrowRight } from "react-icons/md";
 import './all.css';
 // import { GiHamburgerMenu } from "react-icons/gi";
@@ -35,13 +36,13 @@ function LandingPage() {
             <article>
                 <h1 className="title big">Welcome to <br/><em>Lilliovi</em> Public School</h1>
                 <p>Lilliovi: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a href="/" className="btn btn_3">Explore more &nbsp;<TiArrowRightThick size="10"/></a>
+                <a href="/" className="btn btn_3 flex row_dir">Explore More&nbsp;<TiArrowRightThick className="mt-1" size="12   "/></a>
             </article>
             <section className="flex">
                 <aside className="padding_1x">
                     <h2 className="sub_title">Admission</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    <a href="/"><MdKeyboardArrowRight/></a>
+                    <a href="/"><MdKeyboardArrowRight /></a>
                 </aside>
                 <aside className="padding_1x">
                     <h2 className="sub_title">Prospectus</h2>

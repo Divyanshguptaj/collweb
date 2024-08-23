@@ -1,3 +1,10 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.pd-1{
+    margin-right: 5px;
+}
 *, html{
     scroll-behavior: smooth;
 }
@@ -161,6 +168,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn_2{
+    border-radius: 10px;
     background-color:#fdc632;
     color:var(--dark) !important;
 }
@@ -259,10 +267,6 @@ h1, h2, h3, h4, h5, h6{
     
     .medium{
         font-size:1.6em;
-    }
-    
-    .small{
-        font-size:1.1em;
     }
     
     .btn{
@@ -798,6 +802,8 @@ header section{
 
 header section aside{
     position:relative;
+    bottom: 40px;
+    height: 9rem;
 }
 
 header section aside a{
@@ -812,6 +818,7 @@ header section aside a{
     width:30px;
     height:30px;
     left:50%;
+    color: black ;
     transform:translate(-50%, 0);
     border:1px solid var(--gray);
 }
@@ -1005,7 +1012,7 @@ header section aside:nth-child(3){
 #event .btn{
     display:block;
     margin-top:2rem;
-    border-radius:0;
+    border-radius: 3px;
     padding:0.5rem 1rem;
     background-color:var(--white) !important;
 }
@@ -1708,3 +1715,18 @@ header section aside:nth-child(3){
     100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
 }
 
+.event-slider{
+    max-height:60vh;
+    height:60vh;
+    overflow-y:auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.row_dir{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.top_sec1{
+    justify-content: left;
+}

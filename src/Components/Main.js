@@ -1,7 +1,8 @@
 import React from 'react'
 import './all.css';
 import { MdKeyboardArrowRight } from "react-icons/md";
-
+import { SlCalender } from "react-icons/sl";
+import { FaRegClock } from "react-icons/fa";
 function main(){
     return(
         // MAIN
@@ -11,26 +12,26 @@ function main(){
                 <section className="flex_content padding_2x">
                     <div className="title_header">
                         <h2 className="title medium">Notifications</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                        <p className='mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                         <span className="bar_blue"></span>
                     </div>
                     <div id="notification">
 
                         {/* <!--notification begining--> */}
-                        <a href="/" className="flex fixed_flex">
+                        <a href="/" className="flex">
                             <figure>
                                 <img src="https://i.postimg.cc/tJ7PYG7h/02.jpg" alt="" loading="lazy" />
                             </figure>
                             <article>
                                 <h3 className="title">Lilliovi simple & cool web designing root way </h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
+                                <p className='m-4'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
                                 <aside className="fixed_flex">
-                                    <span>
-                                        <i className="fa fa-calendar"></i>
+                                    <span className='flex m-4'>
+                                        <SlCalender className='m-1' size={10}/>
                                         12-08-2023
                                     </span>
-                                    <span>
-                                        <i className="fa fa-clock-o"></i>
+                                    <span className='flex '>
+                                        <FaRegClock className='m-1' size="10"/>
                                         20:38 pm
                                     </span>
                                 </aside>
@@ -40,82 +41,109 @@ function main(){
                         {/* <!--notification ends--> */}
 
                         {/* <!--notification begining--> */}
-                        <a href="/" className="flex fixed_flex">
+                        <a href="/" className="flex">
                             <figure>
                                 <img src="https://i.postimg.cc/tJ7PYG7h/02.jpg" alt="" loading="lazy" />
                             </figure>
                             <article>
                                 <h3 className="title">Lilliovi simple & cool web designing root way </h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
+                                <p className='m-4'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
                                 <aside className="fixed_flex">
-                                    <span>
-                                        <i className="fa fa-calendar"></i>
+                                    <span className='flex m-4'>
+                                        <SlCalender className='m-1' size={10}/>
                                         12-08-2023
                                     </span>
-                                    <span>
-                                        <i className="fa fa-clock-o"></i>
+                                    <span className='flex '>
+                                        <FaRegClock className='m-1' size="10"/>
                                         20:38 pm
                                     </span>
                                 </aside>
                             </article>
                         </a>
+
                         {/* <!--notification ends--> */}
 
                         {/* <!--notification begining--> */}
-                        <a href="/" className="flex fixed_flex">
+                        <a href="/" className="flex">
                             <figure>
                                 <img src="https://i.postimg.cc/tJ7PYG7h/02.jpg" alt="" loading="lazy" />
                             </figure>
                             <article>
                                 <h3 className="title">Lilliovi simple & cool web designing root way </h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
+                                <p className='m-4'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
                                 <aside className="fixed_flex">
-                                    <span>
-                                        <i className="fa fa-calendar"></i>
+                                    <span className='flex m-4'>
+                                        <SlCalender className='m-1' size={10}/>
                                         12-08-2023
                                     </span>
-                                    <span>
-                                        <i className="fa fa-clock-o"></i>
+                                    <span className='flex '>
+                                        <FaRegClock className='m-1' size="10"/>
                                         20:38 pm
                                     </span>
                                 </aside>
                             </article>
                         </a>
+
                         {/* <!--notification ends--> */}
 
                         {/* <!--notification begining--> */}
-                        <a href="/" className="flex fixed_flex">
+                        <a href="/" className="flex">
                             <figure>
                                 <img src="https://i.postimg.cc/tJ7PYG7h/02.jpg" alt="" loading="lazy" />
                             </figure>
                             <article>
                                 <h3 className="title">Lilliovi simple & cool web designing root way </h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
+                                <p className='m-4'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
                                 <aside className="fixed_flex">
-                                    <span>
-                                        <i className="fa fa-calendar"></i>
+                                    <span className='flex m-4'>
+                                        <SlCalender className='m-1' size={10}/>
                                         12-08-2023
                                     </span>
-                                    <span>
-                                        <i className="fa fa-clock-o"></i>
+                                    <span className='flex '>
+                                        <FaRegClock className='m-1' size="10"/>
                                         20:38 pm
                                     </span>
                                 </aside>
                             </article>
                         </a>
+
                         {/* <!--notification ends--> */}
+
+                        {/* <!--notification begining--> */}
+                        <a href="/" className="flex">
+                            <figure>
+                                <img src="https://i.postimg.cc/tJ7PYG7h/02.jpg" alt="" loading="lazy" />
+                            </figure>
+                            <article>
+                                <h3 className="title">Lilliovi simple & cool web designing root way </h3>
+                                <p className='m-4'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...</p>
+                                <aside className="fixed_flex">
+                                    <span className='flex m-4'>
+                                        <SlCalender className='m-1' size={10}/>
+                                        12-08-2023
+                                    </span>
+                                    <span className='flex '>
+                                        <FaRegClock className='m-1' size="10"/>
+                                        20:38 pm
+                                    </span>
+                                </aside>
+                            </article>
+                        </a>
+
+                        {/* <!--notification ends--> */}
+
                     </div>
                 </section>
 
                 <section className="flex_content padding_2x" id="event">
                     <div className="title_header">
                         <h2 className="title medium">Events</h2>
-                        <p>With a passion and zeal for the lost and hurting world, our church is looking for ways to build bridges to a cynical and jaded society.</p>
+                        <p className='mb-5'>With a passion and zeal for the lost and hurting world, our church is looking for ways to build bridges to a cynical and jaded society.</p>
                         <span className="bar_white"></span>
                         <ul className="logo-slider event-slider">
                             <li>
                                 <h3 className="title small">Second Anniversary Of Lilliovi</h3>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots...</p>
+                                <p className='mb-5'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots...</p>
                                 <aside className="fixed_flex">
                                     <span>25<sub>day</sub></span>
                                     <span>11<sub>hrs</sub></span>
@@ -126,7 +154,18 @@ function main(){
                             </li>
                             <li>
                                 <h3 className="title small">Lilliovi At TheWater Mission Award</h3>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots...</p>
+                                <p className='mb-5'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots...</p>
+                                <aside className="fixed_flex">
+                                    <span>25<sub>day</sub></span>
+                                    <span>11<sub>hrs</sub></span>
+                                    <span>30<sub>min</sub></span>
+                                    <span>03<sub>sec</sub></span>
+                                </aside>
+                                <a href="/" className="btn btn_2">Event details</a>
+                            </li>
+                            <li>
+                                <h3 className="title small">Lilliovi At TheWater Mission Award</h3>
+                                <p className='mb-5'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots...</p>
                                 <aside className="fixed_flex">
                                     <span>25<sub>day</sub></span>
                                     <span>11<sub>hrs</sub></span>
@@ -141,7 +180,7 @@ function main(){
             </div>
             
             {/* <!--division_4--> */}
-            <div className="divisions division_4" onmousemove="animate_balls(event)">
+            {/* <div className="divisions division_4" onmousemove="animate_balls(event)">
                 <div className="title_header">
                     <h2 className="title medium">We promise best future for your kids</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -171,7 +210,7 @@ function main(){
                         </figure>
                     </section>
                 </div>
-            </div>
+            </div> */}
         </main>
     );
 }

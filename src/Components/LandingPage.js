@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { TiArrowRightThick } from "react-icons/ti";
-import { IoCall } from "react-icons/io5";
+// import { IoCall } from "react-icons/io5";
 // import { MdOutlineArrowRight } from "react-icons/md";
 import './all.css';
 // import { GiHamburgerMenu } from "react-icons/gi";

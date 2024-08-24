@@ -1,6 +1,6 @@
 import React from 'react'
 import './all.css';
-import { MdKeyboardArrowRight } from "react-icons/md";
+// import { MdKeyboardArrowRight } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import { FaRegClock } from "react-icons/fa";
 function main(){
